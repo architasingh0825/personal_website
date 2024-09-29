@@ -1,35 +1,35 @@
 {
   "main": {
-    "name":"Swapnil Shaurya",
+    "name":"Archita Singh",
     "occupation":"Student",
-    "description":"Software Engineer | CS + Econ @ UT Austin",
+    "description":"Turing Scholar | CS + Math @ UT Austin",
     "image":"profilepic.jpeg",
-    "bio":"Hello! My name is Swapnil Shaurya, and I am a senior studying Computer Science and Economics at the University of Texas at Austin.",
+    "bio":"Hello! My name is Archita Singh, and I am studying Computer Science and Mathematics at the University of Texas at Austin.",
     "contactmessage":"Here is where you should write your message to readers to have them get in contact with you.",
-    "email": "swapnil.shaurya@utexas.edu",
-    "phone": "281-837-9121",
+    "email": "archita.singh@utexas.edu",
+    "phone": "346-216-7115",
     "address":{
       "street":"xxxx",
       "city":"xxxx",
       "state":"xxx",
       "zip": "xx"
     },
-    "website": "http://www.swapnilshaurya.com",
+    "website": "http://www.architasingh.com",
     "resumedownload":"xxxxx",
     "social":[
       {
         "name":"mail",
-        "url":"mailto:swapnil.shaurya@utexas.edu",
+        "url":"mailto:archita.singh@utexas.edu",
         "className":"fa fa-envelope"
       },
       {
         "name":"linkedin",
-        "url":"https://www.linkedin.com/in/swapnil-shaurya/",
+        "url":"https://www.linkedin.com/in/architasingh25/",
         "className":"fa fa-linkedin"
       },
       {
         "name":"github",
-        "url":"https://github.com/swapnil-shaurya",
+        "url":"https://github.com/architasingh0825",
         "className":"fa fa-github"
       }
     ]
@@ -39,75 +39,49 @@
     "education":[
       {
         "school":"University of Texas at Austin",
-        "degree":"B.S. Computer Science",
-        "graduated":"August 2020 - May 2024",
-        "description":"",
+        "degree":"B.S. Computer Science, Turing Scholar Honors",
+        "description":"Activities: Directed Reading Program, WiCS, MaGiCS",
         "logo":"images/UTLogo.png"
       },
       {
         "school":"University of Texas at Austin",
-        "degree":"B.A. Economics",
-        "graduated":"August 2020 - May 2024",
+        "degree":"B.S. Mathematics",
         "description":"",
         "logo":"images/UTLogo.png"
       }
     ],
     "work":[
       {
-        "company":"YouTube",
-        "title":"Software Engineering Intern",
-        "years":"May 2023 - Aug 2023",
+        "company":"Jane Street",
+        "title":"Academy for Math and Programming",
+        "years":"June 2024 - Aug 2024",
         "description":[
-          "Full-stack & iOS Development in Java, C++, and Swift/Objective-C on the YouTube Connected Experiences team",
-          "Designed & implemented new feature, supporting simultaneous video playback on phone while casting to TV",
-          "Implemented multiple iOS UIs and wrote code/unit tests spanning all team stacks: iOS, Server, TV (TypeScript)",
-          "Took ownership of soft launch (coordinated PM & UX); developed metrics to track usage (~12M users per day)"
+          "1 of 78 out of 5000+ selected nationally for five-week residential/educational program taught by U.S. Math Team coaches and IMO medalists",
+          "Designed, implemented, and presented Python artificial intelligence agents for mathematically-focused games, such as Wordle and Anagrams, with a focus on rigorous testing and creative problem solving",
+          "Completed rigorous coursework in number theory, combinatorics, and computer science, spanning topics such as probability, statistics, object-oriented design, algorithms, and game theory"
         ],
-        "logo":"images/YouTubeLogo.png"
-      },
-      {
-        "company":"Google",
-        "title":"Software Engineering Intern",
-        "years":"Aug 2022 - Dec 2022",
-        "description":[
-          "ML Modeling/Infra & Backend Development in Python and C++ on the Document AI team within Google Cloud",
-          "Implemented a novel E2E modeling pipeline for the training, prediction, and evaluation of open-source PyTorch models on GCP Vertex AI infrastructure",
-          "Developed Python data processing libraries with unit tests and modeling pipeline integration",
-          "Launched a new prediction endpoint for Doc AI’s REST API using a custom-built Docker image"
-        ],
-        "logo":"images/GoogleLogo.png"
-      },
-      {
-        "company":"Charles Schwab",
-        "title":"Software Engineering Intern",
-        "years":"May 2022 - Aug 2022",
-        "description":[
-          "Backend/Database development on the Client Data Management team overseeing migration to a new database",
-          "Built Java distributed microservices in a high-volume environment (>50k requests per min) using Spring Boot",
-          "Developed a Restful API to optimize retrieval from DB2 (legacy) and Yugabyte databases for 40 million accounts",
-          "Wrote SQL queries to migrate data, designed JUnit tests, and created Splunk prod monitoring dashboards"
-        ],
-        "logo":"images/CharlesSchwabLogo.png"
+        "logo":"images/janestreet.jpeg"
       },
       {
         "company":"MD Anderson Cancer Center",
         "title":"Data Science & ML Research Intern",
-        "years":"Aug 2021 - Dec 2021",
+        "years":"Aug 2021 - Aug 2023",
         "description": [
-          "Processed demographic & health data with MySQL, creating data clustering models in Python with SciKit-Learn",
-          "Applied the Elbow Method with K-means clustering, and principal component analysis to isolate key features"
+          "Processed 50+ records of demographic and health data using MySQL to develop clustering models in Python (SciKit-Learn).",
+          "Applied the Elbow Method with K-means clustering, and principal component analysis to isolate key features",
+          "Presented research at Rice University's Ken Kennedy AI and Data Science Conference."
         ],
         "logo":"images/MDACCLogo.png"
       },
       {
-        "company":"University of Texas at Austin",
-        "title":"ML Research Assistant",
-        "years":"Aug 2020 - Jun 2021",
+        "company":"University of Houston",
+        "title":"Academic Research Intern",
+        "years":"Aug 2022 - Aug 2023",
         "description": [
-          "Authored a research paper that proved 93% efficacy of structured white noise reduction using GANs",
-          "Created a style-based GAN (StyleGAN) that implements the pixel2Style2pixel framework in Python with PyTorch"
+          "Utilized automated video scanning, indexing, captioning, and search to make lecture videos interactive learning resources.",
+          "Used Pandas, Scikit-Learn, Natural Language Processing, and Google Tesseract to develop keyword identification algorithms and metrics to evaluate performance against groundtruth keywords"
         ],
-        "logo":"images/UTLogo.png"
+        "logo":"images/uh.webp"
       }
     ],
     "skills":[
@@ -132,16 +106,29 @@
   "portfolio":{
     "projects": [
       {
-        "title":"Electrends",
-        "category":"Wed app that congregates information on Texas Elections",
-        "image":"Electrends.png",
-        "url":"https://gitlab.com/dandom25/electrends"
+        "title":"Electronic Trading Competition Bot",
+        "category":"Developed quantitative modeling and trading algorithms on electronically simulated stock exchanges. Traded on simulated market, produced the 3rd highest PNL over 6 hours of market making",
+        "image":"images/etc.png",
+        "url":"https://github.com/anishgoyal1108/AMP-ETC"
       },
       {
-        "title":"Image Noise Reduction",
-        "category":"Implementation of a StyleGAN + pSp framework to remove white noise from images",
-        "image":"WNR.png",
-        "url":"https://github.com/rahuls02/Image-Noise-Reduction"
+        "title":"CamelUp",
+        "category":"Developed backend and unit tests for a digital version of CamelUp with a focus on object-oriented design. Developed an artificial intelligence agent to mathematically optimize bets based on the current board state.",
+        "image":"images/camelUp.webp",
+        "url":"https://github.com/architasingh0825/CamelUp"
+      },
+      {
+        "title":"COVID-19 Comorbidity Analysis",
+        "category":"Determined demographic and comorbidity features correlated to COVID cases/deaths in Python and SciKit-Learn. Used principal component analysis to narrow down 4 most influential features. Implemented the Elbow Method with K-means clustering models, varying the number of clusters and features. Presented research at the Ken Kennedy AI and Data Science Conference",
+        "image":"images/poster.png",
+        "url":"https://github.com/architasingh0825/COVID19ComorbidityAnalysis"
+      }
+      ,
+      {
+        "title":"Comparison of Key Word Identification Models",
+        "category":"Utilizes automatic video indexing, captioning, and search within and across recordings to transform a classroom lecture video into an interactive learning resource. Working on the implementation of document scanning to search through supplementary materials and lecture keyword identification.",
+        "image":"images/projectOne.png",
+        "url":"https://github.com/architasingh0825/Comparison-of-Key-Word-Identification-Models-"
       }
     ]
   }
